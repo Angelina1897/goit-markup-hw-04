@@ -102,6 +102,11 @@ color: #434455;
 
 .section-hero {
 background-color: #2e2f42;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+display: block;
 padding: 188px 0;
 }
 
@@ -243,6 +248,9 @@ padding: 32px;
 }
 .team-image {
 display: block;
+}
+.team-item-icons {
+feel: #f4f4fd;
 }
 .team-title {
 text-transform: capitalize;
