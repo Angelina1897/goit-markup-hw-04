@@ -105,6 +105,7 @@ background-color: #2e2f42;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 background-repeat: no-repeat;
 background-position: center;
+max-width: 1440рх;
 background-size: cover;
 display: block;
 padding: 188px 0;
@@ -196,6 +197,17 @@ display: block;
 margin-right: 0px;
 width: calc((100% - 72px) / 4);
 }
+.benefits-item-icons {
+fill: #2E2F42;
+padding: 24 px 100;
+margin: 0 auto;
+display: flex;
+width: 264px;
+height: 112px;
+background-color: #f4f4fd;;
+justify-content: center;
+}
+
 .benefits_item:first-child {
 width: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;
@@ -241,6 +253,8 @@ text-align: center;
 display: block;
 padding: 32 px 0;
 border-radius: 0px 0px 4px 4px;
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+background: #fff;
 }
 
 .team-subtitle-Mark {
@@ -249,9 +263,7 @@ padding: 32px;
 .team-image {
 display: block;
 }
-.team-item-icons {
-feel: #f4f4fd;
-}
+
 .team-title {
 text-transform: capitalize;
 font-weight: 700;
@@ -293,8 +305,11 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
 margin: 0 auto;
+margin-bottom: 8px;
 }
-
+.social-media-icons {
+feel: #f4f4fd;
+}
 .portfolio-title {
 font-weight: 700;
 font-size: 36px;
@@ -383,7 +398,15 @@ display: inline-block;
 .footer-logo-part {
 color: #f4f4fd;
 }
-
+.social-media-subtitle {
+font-family: "Roboto",
+    sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
 .footer-subtitle {
 line-height: 1.5;
 color: #F4F4FD;
