@@ -290,6 +290,7 @@ padding: 32px;
 .team-image {
 display: block;
 }
+
 .social-media-icons-list {
 display: flex;
 justify-content: center;
@@ -308,7 +309,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-
 .social-media-icons-link:hover,
 .social-media-icons-link:focus {
 background-color: #404bbf;
@@ -317,6 +317,8 @@ background-color: #404bbf;
 .social-media-icons {
 fill: #f4f4fd;
 }
+
+
 .team-title {
 text-transform: capitalize;
 font-weight: 700;
