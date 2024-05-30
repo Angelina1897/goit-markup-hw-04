@@ -382,6 +382,11 @@ column-gap: 24px;
 flex-wrap: wrap;
 row-gap: 48px;
 }
+.overlay-portfolio-img {
+position: relative;
+overflow: hidden;
+}
+
 .portfolio-item:first-child {
 width: calc((100% - 48px) / 3);
 }
