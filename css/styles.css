@@ -424,7 +424,6 @@ margin-bottom: 8px;
 
 .portfolio-image {
 background: url("path_to_image");
-
 }
 
 .portfolio-text {
@@ -508,7 +507,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-.footer-link:hover,&@a  q<<
+.footer-link:hover,
 .footer-link:focus {
 background-color: #31d0aa;;
 }
