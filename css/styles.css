@@ -423,6 +423,7 @@ line-height: 150%;
 letter-spacing: 0.02em;
 color: var(--slate);
 margin: 0 auto;
+padding: 32px 16px;
 }
 .portfolio-subtext {
 position: absolute;
